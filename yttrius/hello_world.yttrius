@@ -1,0 +1,3 @@
+outputs >> "Hello World" ;
+
+exit 0;

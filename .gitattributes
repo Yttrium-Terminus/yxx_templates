@@ -1,7 +1,7 @@
 # this file is only used to give the proper language identification as hte Y++ is based off of a Elixir, C++, C combo, etc.
 
-*.ypp linguist-language=C++
-*.yxx linguist-language=C++
+*.ypp linguist-language=CPP
+*.yxx linguist-language=CPP
 *.yh linguist-language=C
 *.yxh linguist-language=Elixir
 *.yph linguist-language=Elixir

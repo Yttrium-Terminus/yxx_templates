@@ -27,7 +27,7 @@ main() :
   puts :: "Enter a number: " >> number;
   puts :: "Enter another number: " >> number2;
   
-  io::writes << { arth: number + number2 }
+  io::writes << { arth: number + number2 } // arth keeps the values unloaded 
   
   exit 0;
 

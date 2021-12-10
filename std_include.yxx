@@ -1,5 +1,8 @@
+// a general purpose include for the Y++ Language 
+
+
 imports: yttrius@std -> unstable templates {v0} 
-imports: yttrius@transpiler ALL
+imports: yttrius@transpiler ALL // standalone imports
 
 transpiler_pr {
    conf:

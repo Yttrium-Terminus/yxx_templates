@@ -3,15 +3,38 @@ Y++ Templates
 Find templates you need here
 for the Y++ Language
 
+These templates can all be 
+added using the YttriusSTDLib:
+imports: yttrius@std -> templates {v0}
+
 Y-Make Templates
 
 Find templates you need here
 for the Y-Make Engine
 
+These templates can all be 
+added using the Yttrius-Transpiler
+tool:
+
+conf: [.09 > yttrius-make-templates ]
+conf: [0.2 > ytranspiler-ypp ]
+
 YttriusCLI
 
 Find templates you need here
 for the CLI-Script Commands
+
+The Yttrius Exon language's templates
+can all be iincluded using:
+
+includes yttrius@std_templates [v0]
+
+OR
+
+path {std@templates : v0}
+
+
+
 
 Although the syntax highlighting is completely off
 it is pretty close to what the proper

@@ -4,7 +4,7 @@
 *.yxx linguist-language=CPP
 *.yh linguist-language=C
 *.yxh linguist-language=Elixir
-*.yph linguist-language=Elixir
+*.yph linguist-language=C
 
 # YMake is a similar tool to cmake
 

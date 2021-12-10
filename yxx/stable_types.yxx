@@ -6,7 +6,7 @@ prep {
    yxh.std ;
 }
 
-/$
+/*
 All of the following determinants can be fkr any primitive types
 unloaded = the value is undetermined at init and can be any value in the standard 64 bit long
 unstable = overwrite of the original variable (less memory more chance of corruption with bigger values)
@@ -17,9 +17,7 @@ stable = the value will be init (not necessary to be put)
 loaded = memory address hidden
 signed = std signed
 static =  cannot be resigned to another memory address
-
-
-/
+*/
 
 main():
    unstable unloaded unsigned long uuul ; 

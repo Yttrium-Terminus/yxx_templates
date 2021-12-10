@@ -1,0 +1,19 @@
+# this file is only used to give the proper language identification as hte Y++ is based off of a Elixir, C++, C combo, etc.
+
+*.ypp linguist-language=C++
+*.yxx linguist-language=C++
+*.yh linguist-language=C
+*.yxh linguist-language=Elixir
+*.yph linguist-language=Elixir
+
+# YMake is a similar tool to cmake
+
+*.ymake linguist-language=CMAKE
+
+# yttriuscli is a bash like script language made especially for automating ymake building and memory watch for y++
+
+*.yttrius_exon linguist-language=BASH
+
+# Yttrius is a R + ASM like language designed for firmware sided manipulations
+
+*.yttrius linguist-language=R

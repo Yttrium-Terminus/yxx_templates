@@ -1,3 +1,4 @@
+// imports styling: lib_name@attribute_name
 imports {
   stdio@io -> tie::console(0)
   maths@arth -> 0

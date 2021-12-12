@@ -29,10 +29,10 @@ prep_core: {
 make_func []
 
 main (ar: signed) {throws: arth_err | arth_index_bounds_null | null_err} {
-  io::loc part* = [720] // max outputs
+  io::loc part* = [720] # max outputs
   
-  io::malloc(part ^ [240]) // alloc to the write space
+  io::malloc(part ^ [240]) # alloc to the write space
   
-  io_write_circle(4) // circle with radius 4
+  io_write_circle(4) # circle with radius 4
   
 }

@@ -17,3 +17,5 @@
 # Yttrius is a R + ASM like language designed for firmware sided manipulations
 
 *.yttrius linguist-language=R
+
+*.cache linguist-language=Log

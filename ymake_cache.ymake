@@ -1,1 +1,11 @@
 [*]
+yaml -> suggest _ 1.02
+yaml -> suggest _ nodejs 16x
+yaml ->  suggest _ yxx 1.3^
+bernard -> stf_fix _ make_error compound -> 1.023
+
+YMAKE_PATH_FIND
+
+loc: ../assets/outsider_folder
+
+LOAD: FOLDER>AP_PATH

@@ -27,6 +27,11 @@ wrapper for ASM , and you can easily replace
 the ASM in bridge_cpp.yttrius with your desired 
 ASM code.
 
+bridge_cpp.yttrius has been setup
+to handle most instruction sets and ASM
+code. Just replace the ASM with
+yours.
+
 YttriusCLI
 
 Find templates you need here

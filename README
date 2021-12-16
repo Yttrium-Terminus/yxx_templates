@@ -19,13 +19,21 @@ tool:
 conf: [.09 > yttrius-make-templates ]
 conf: [0.2 > ytranspiler-ypp ]
 
+Yttrius:
+
+Here are all the necessary scripts you
+need. However, Yttrius is just a predefined
+wrapper for ASM , and you can easily replace
+the ASM in bridge_cpp.yttrius with your desired 
+ASM code.
+
 YttriusCLI
 
 Find templates you need here
 for the CLI-Script Commands
 
 The Yttrius Exon language's templates
-can all be iincluded using:
+can all be included using :
 
 includes yttrius@std_templates [v0]
 

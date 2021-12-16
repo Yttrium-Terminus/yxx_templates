@@ -1,6 +1,5 @@
 includes std
 includes io
-includes arth
 includes yttriustd
 
 prep: set_io {

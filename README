@@ -47,7 +47,10 @@ OR
 path {std@templates : v0}
 
 
-
+Additional Notes:
+If you are using this in VSCode, it is recommended to download the .vscode
+folder as well, as there is not yet an official extension for syntax
+highlighting and support for this language in VSCode "yet"
 
 Although the syntax highlighting is completely off
 it is pretty close to what the proper

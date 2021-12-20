@@ -5,6 +5,7 @@
 *.yh linguist-language=C
 *.yxh linguist-language=Elixir
 *.yph linguist-language=C
+*.yxp linguist-language=Clojure
 
 # YMake is a similar tool to cmake
 

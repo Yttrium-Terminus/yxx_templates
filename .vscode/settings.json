@@ -1,5 +1,22 @@
 {
   "lldb.displayFormat": "auto",
   "lldb.showDisassembly": "auto",
-  "lldb.dereferencePointers": true
+  "lldb.dereferencePointers": true,
+  "files.exclude": {
+    "*.class": true,
+    "*.exon_gen": true,
+    "*.out": true
+  },
+  "files.associations": {
+    "*.yxx": "cpp",
+    "*.ypp": "cpp",
+    "*.yxh": "elixir",
+    "*.yxp": "clojure",
+    "*.yph": "c",
+    "*.yh": "c",
+    "*.ymake": "cmake",
+    "*.yttrius_exon": "shellscript",
+    "*.yttrius": "r",
+    "*.cache": "log"
+  }
 }

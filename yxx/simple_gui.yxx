@@ -1,0 +1,31 @@
+imports {
+  yxx@ptapplet -> 1
+  yxx@guilib
+  yxh@listeners
+  stl@listeners_events
+  stl@pref_con
+  yxx@memory -> { USE: GCC_DIAGNOSTICS } // using a GCC library also works! most of the times 
+}
+
+nsp gui;
+nsp stl;
+
+main():
+  make ;
+  init_malloc_();
+  window(std::dimension { 400, 500 }) frame;
+  text frame_text {
+    ( 
+      param (charset) : "Hello World" ;
+      font (ttf) : default
+    )
+  } ;
+  frame::show();
+  frame::append(asList<frame_text ... OBJECT@COMPONENT >);
+  frame::ref;
+  
+  frame.recieved ( 
+    listens_for << window_ev_closing
+    if(listens_is == 1)
+      frame::dispose AS dumped
+  )

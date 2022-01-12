@@ -17,3 +17,5 @@ pre-run: install_git {
 puts "Enter repository HTTPS"
 var link = gefs(all)
 exec -> git fetch %link%
+
+;
